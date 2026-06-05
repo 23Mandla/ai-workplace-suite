@@ -12,6 +12,7 @@ export const Route = createFileRoute("/_app/")({
   component: Dashboard,
 });
 
+//tools data - in a real app, this might come from an API or config file
 const tools = [
   {
     to: "/email",
